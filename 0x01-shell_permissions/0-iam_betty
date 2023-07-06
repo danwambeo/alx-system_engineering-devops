@@ -5,4 +5,3 @@ expect "Password:"
 send "bettypassword\n"
 interact
 EOF
-
