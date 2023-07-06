@@ -1,2 +1,8 @@
-#!/bin/bash
-su betty
+#!/usr/bin/env bash
+expect << EOF
+spawn su betty
+expect "Password:"
+send "bettypassword\n"
+interact
+EOF
+
