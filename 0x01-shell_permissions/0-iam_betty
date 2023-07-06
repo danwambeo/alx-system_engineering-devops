@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 expect << EOF
 spawn su betty
 expect "Password:"
