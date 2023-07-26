@@ -1,2 +1,2 @@
 #!/bin/bash
-mv "$file" /tmp/u
+chmod +x move_uppercase_files.sh
