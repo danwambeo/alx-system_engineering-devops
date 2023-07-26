@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -a | sed 's/$/,/' | sed 's/\/$/\/,/' | sort -k1,1 -t ',' -g | tr '\n' ' ' | sed 's/,$/\n/'
+mv [[:upper:]]* /tmp/u
